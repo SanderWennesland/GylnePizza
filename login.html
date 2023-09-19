@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <title>GylnePizza - Logg inn</title>
+</head>
+
+<body>
+  <section class="hero is-primary is-fullheight">
+    <div class="hero-body is-centered">
+      <div class="container is-centered has-text-centered">
+        <h1 class="title is-1">Gylne<br>Pizza</h1>
+        <div class="columns is-centered">
+          <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+            <form action="./index.html" class="box">
+              <div class="field">
+                <label for="" class="label">Brukernavn</label>
+                <div class="control has-icons-left ">
+                  <input type="username" placeholder="Ola Nordmann" name="uname" class="input" pattern="[a-zA-Z0-9]*"
+                    required>
+                  <figure class="media">
+                    <span class="icon is-small is-left ">
+                      <img src="./images/user.svg" width="15" height="15" alt="Brukerikon">
+                    </span>
+                  </figure>
+                </div>
+              </div>
+              <div class="field">
+                <label for="" class="label">Passord</label>
+                <div class="control has-icons-left">
+                  <input type="password" placeholder="*******" name="psw" class="input" pattern="[a-zA-Z0-9]*" required>
+                  <span class="icon is-small is-left">
+                    <img src="./images/password.svg" width="15" height="15" alt="Ikon av nøkkel">
+                  </span>
+                </div>
+              </div>
+              <div class="field">
+                <button class="button is-success">
+                  Logg inn
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

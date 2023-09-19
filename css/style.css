@@ -1,0 +1,361 @@
+html, :root {
+    background-color: #E5E5E5;
+    line-height: 1.2;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.card {
+    height: 500px;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    background-color: #920108;
+    font-family: PizzaPressFill;
+    border-radius: 35px;
+}
+
+.cards {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    background-color: #920108;
+    font-family: PizzaPressFill;
+    border-radius: 15px;
+   
+}
+
+.section .container .rapport{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    height: 354px;
+}
+
+.section .container .rapport .columns .column{
+    font-family: Roboto;
+    font-size: 0.9rem;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+.section .container .rapport .columns .column img{
+    height: auto;
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.section .container .rapport .columns .column h3{
+    font-family: PizzaPressFill;
+    font-size: 2rem;
+    margin-bottom: -4%;
+}
+
+.section .container .rapport .columns .column p{
+    margin-bottom: -2%;
+}
+
+.section .container .rapport .columns .column h2{
+    font-family: PizzaPressFill;
+    font-size: 2.6rem;
+    margin-top: 5%;
+}
+
+.section .container .rapport .columns .column h4{
+    color: #2ECE5A;
+    margin-top: 15%;
+    margin-left: 1%;
+    font-size: 1rem;
+}
+
+.title {
+    color: #ffff;
+}
+.title.is-4 {
+    font-size: 4rem;
+}
+
+#slider .slider .slider-navigation-next, 
+#slider .slider .slider-navigation-previous {
+    margin: 15%;
+    margin-top: -5%;
+}
+/* #slider .card .card-image .image{
+    border-radius: 5%;
+}*/
+
+.columns {
+    font-family: PizzaPressFill;
+    text-align: center;
+    
+}
+
+.columns .column .meny {
+    color: #920008;
+    font-size: 1.5rem;
+}
+
+.columns .column .ingredienser {
+    color: #2b2929;
+    font-family: Roboto;
+}
+
+.columns .column .pizza {
+    color: #920008;
+    font-size: 2rem;
+    
+}
+
+
+
+.subtitle{
+    color: #ffff;
+    font-family: PizzaPressFill;
+    
+}
+
+/************* COLLAPSIBLE I RESTAURANTER *************/
+
+#restaurant-container {
+    margin-bottom: 10%;
+}
+
+.media-content {
+    background-color: #920108;
+    border-radius: 15px;
+    
+}
+
+.container .section .columns .column {
+    max-height: 630px;
+
+}
+
+.accordion {
+    max-height: 660px;
+    font-family: PizzaPressFill;
+    font-size: 1.5rem;
+    background-color: #920108;
+    color: #ffff;
+    cursor:pointer;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.4s;
+    
+}
+
+.accordion:hover {
+    color: #FFDF00;
+    
+}
+
+
+.panel {
+    padding: 0 18px;
+    background-color: #920108;
+    color:#ffff;
+    text-align: left;
+    display: none;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.accordion:focus {
+    color: #FFDF00;   
+}
+
+
+
+
+
+/* ***************** Employees ***************** */
+
+.employees {
+    max-height: 300px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    background-color: #920108;
+    font-family: PizzaPressFill;
+    border-radius: 15px;
+    overflow-wrap: inherit;
+    
+}
+
+.employee-info {
+    color: #ffff;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.button {
+    font-family: PizzaPressFill;
+    background-color: #920108;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #ffff;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.buttons .button:hover {
+    color: #FFDF00;
+}
+
+.buttons .button:active {
+    background-color: #520509;
+    color: #FFDF00;
+}
+
+.buttons .button:focus {
+    background-color: #520509;
+    color: #FFDF00;
+}
+
+.buttons .employee {
+    padding-right: 50px; /* setter avstand mellom knappens tekstinnhold og høyre kant for å gjøre plass til symbol */
+}
+
+/* ************ Employees -> restaurant symbol ************** */
+.restaurant-symbol-container {
+    position: relative;
+    width: 34px;
+}
+
+.restaurant-symbol-container div {
+    height: 34px;
+    width: 34px;
+}
+.restaurant-symbol-container .Bjerke-shape {
+    border-radius: 50%; /* gjør sirkel av symbolet */
+    background-color: #00FF6C; /* bestemmer sirkelens farge */
+}
+
+.restaurant-symbol-container .Gamlebyen-shape {
+    border-left: 15px solid transparent;  /* gjør trekant av symbol*/
+    border-right: 15px solid transparent; /* ------||------ */
+    border-bottom: 34px solid #0FCBF7;      /* ------||------ */
+    background-color: transparent;
+}
+
+.restaurant-symbol-container .Majorstuen-shape {
+    border-left: 20px solid transparent;  /* gjør trekant av symbol */
+    border-right: 20px solid transparent; /* ------||------ */
+    border-top: 34px solid #FFFF00;        /* ------||------ */
+    background-color: transparent;
+}
+
+.restaurant-symbol-container .Sagene-shape {
+    background-color: #FF9B4B; /* bestemmer firkantens farge */
+}
+
+.restaurant-symbol-container p.Bjerke-init-letter {
+    top: 0; /* plasserer forbokstaven i symbolet for Bjerke fra toppkant av div */
+    color: #000; /* bestemmer fargen på forbokstaven i symbolet for Bjerke */
+}
+
+.restaurant-symbol-container p.Gamlebyen-init-letter {
+    top: 6px; /* plasserer forbokstaven i symbolet for Bjerke fra toppkant av div */
+    left: 10px; /* plasserer forbokstaven i symbolet for Bjerke fra venstre kant av div */
+    color: #000; /* bestemmer fargen på forbokstaven i symbolet for Gamlebyen*/
+}
+
+.restaurant-symbol-container p.Majorstuen-init-letter {
+    bottom: 4px; /* plasserer forbokstaven i symbolet for Bjerke fra bunnkant av div */
+    color: #000; /* bestemmer fargen på forbokstaven i symbolet for Majorstuen */
+}
+
+.restaurant-symbol-container p.Sagene-init-letter {
+    top: 0; /* plasserer forbokstaven i symbolet for Bjerke fra toppkant av div */
+    color: #000; /* bestemmer fargen på forbokstaven i symbolet for Sagene */
+}
+
+.restaurant-symbol-container p {
+    position: absolute;
+    left: 12px;
+    font-size: 1.4rem;
+}
+
+button .restaurant-symbol-container {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+button .restaurant-symbol-container div {
+    height: 28px;
+    width: 28px;
+}
+
+button .restaurant-symbol-container p {
+    left: 9px;
+    font-size: 1.2rem; /* setter størrelsen på forbokstaven i symbolet */
+}
+
+.media-content .restaurant-symbol-container {
+    left: 24px;
+    bottom: 20px;
+}
+
+.employees div.restaurant-symbol-container div.Gamlebyen-shape {
+    position: relative;
+    right: 2px;
+    top: 2px;
+}
+
+.employees .restaurant-symbol-container p.Gamlebyen-init-letter {
+    left: 10px; /* plasserer forbokstaven i symbolet for avdeling Gamlebyen fra venstre */
+    top: 6px; /* plasserer forbokstaven i symbolet for avdeling Gamlebyen fra toppen */
+}
+
+div button.employee div.restaurant-symbol-container div.Majorstuen-shape {
+    position: relative;
+    right: 10px;
+    top: 4px;
+}
+
+.employee .restaurant-symbol-container p.Majorstuen-init-letter { 
+    left: 2px; /* plasserer forbokstaven i symbolet for avdeling Majorstuen fra venstre */
+    top: 3px; /* plasserer forbokstaven i symbolet for avdeling Majorstuen fra toppen */
+}
+
+p.restaurant-symbol-name {
+    color: #FFF;
+    font-size: 1rem;;
+    bottom: 4px;
+    left: 40px;
+}
+
+.button.isGhost {
+    height: auto; /* retter høyden på redigeringsikonet på meny-siden for visning i Safari */
+}

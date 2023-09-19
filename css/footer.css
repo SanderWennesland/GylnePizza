@@ -1,0 +1,18 @@
+footer figure {
+    margin-right: 40px; /* setter avstand mellom området med SoMe-ikoner og høyre kant av UI-vinduet */
+}
+
+footer figure a {
+    margin: 0 10% 0 10%; /* setter avstand mellom ikoner */
+}
+
+footer figure a .icon {
+    color: #920008; /* setter farge på SoMe-ikoner */
+    transition: all .2s ease-in-out; /* setter en tidsmessig overgang på forstørrelse av et SoMe-ikon  */
+}
+
+footer figure a .icon:hover {
+    color:#272723; /* setter farge på SoMe-ikoner når musepeker føres over et ikon */
+    transform: scale(1.3); /* setter forstørrelse på ikoner når musepeker føres over et SoMe-ikon */
+}
+

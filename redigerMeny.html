@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>GylnePizza</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="hero">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <h1 class="logo">
+                        Gylne<br>Pizza
+                    </h1>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" href="index.html">
+                    Hjem
+                </a>
+                <a class="navbar-item active" href="Meny.html">
+                    Meny
+                    <div class="arrow-up"></div>
+                </a>
+                <a class="navbar-item" href="Restauranter.html">
+                    Restauranter
+                </a>
+                <a class="navbar-item" href="Ansatte.html">
+                    Ansatte
+                </a>
+                <a class="navbar-item" href="Salg.html">
+                    Salg
+                </a>
+            </div>
+        </nav>
+    </header> <!--end header-->
+
+    <!--INPUT MENY-->
+
+    <section style="margin: 100px;">
+        <form>
+            <div class="field">
+                <label class="label">Produkt:</label>
+                <input type="text" class="input" placeholder="Produkt navn..">
+            </div>
+
+            <div class="field">
+                <label class="label">Kategori</label>
+                <p class="control">
+                    <span class="select">
+                        <select>
+                            <option>Pizza</option>
+                            <option>Drikke</option>
+                        </select>
+                    </span>
+                </p>
+            </div>
+            <div class="field">
+                <label class="label">Info</label>
+                <p class="control">
+                    <textarea class="textarea" placeholder="Ingredienser.."></textarea>
+                </p>
+            </div>
+            <div class="block">
+                <div class="field has-addons">
+                    <p class="control">
+                        <span class="select">
+                            <select>
+                                <option>Nok</option>
+                                <option>$</option>
+                                <option>€</option>
+                            </select>
+                        </span>
+                    </p>
+                    <p class="control">
+                        <input type="text" class="input" placeholder="Pris.."></input>
+                    </p>
+                    <p class="control">
+                        <a href="" class="button is-info">Legg til</a>
+                    </p>
+                </div>
+            </div>
+            <div style="margin-top: 20px; margin-bottom: 20px;" class="file">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="resume">
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label">
+                      Last opp bilde…
+                    </span>
+                  </span>
+                </label>
+            </div>
+            
+            
+
+            <button class="button"> Legg til </button>
+        </form>
+    </section> <!--end input meny-->
+
+    <!--MENY LIST-->
+
+    <section style="margin: 100px"> 
+        <table class="table is-striped">
+            <thead>
+              <tr>
+                <th>Produkt</th>
+                <th>Pris</th>
+                <th>innhold</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button class="delete"></button> Carne di pentito</td>
+                <td>169 kr</td>
+                <td>Ingredienser:<br>tomatsaus<br>ost<br>bacon<br>skinke</td>
+              </tr>
+              <tr>
+                <td><button class="delete"></button> Cheese</td>
+                <td>169 kr</td>
+                <td>Ingredienser:<br>tomatsaus<br>ost</td>
+              </tr>
+              <tr>
+                <td><button class="delete"></button> Christian spesial</td>
+                <td>168 kr</td>
+                <td>Ingredienser:<br>tomatsaus<br>ost<br>biff<br>skinke</td>
+              </tr>
+              <tr>
+                <td><button class="delete"></button> Pepperoni</td>
+                <td>169 kr</td>
+                <td>Ingredienser:<br>tomatsaus<br>ost<br>pepperoni</td>
+              </tr>
+            </tbody>
+          </table>
+    
+    </section><!--end meny list-->
+
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="content is-pulled-left is-aligned">
+            <p>
+                &copy; 2021 Gylne Pizza. All Rights Reserved
+            </p>
+        </div>
+
+        <figure class="media is-pulled-right is-aligned" aria-label="Link to Twitter">
+            <a href="https://twitter.com/JacobLanche">
+                <span class="icon is-medium">
+                    <i class="fab fa-twitter fa-2x" aria-hidden="true" title="Link to Twitter"></i>
+                </span>
+            </a>
+
+           
+            <a href="https://www.facebook.com/Swedish-Chef-12320736665/" aria-label="Link to Facebook">
+                <span class="icon is-medium">
+                    <i class="fab fa-facebook fa-2x" aria-hidden="true" title="Link to Facebook"></i>
+                </span>
+            </a>
+
+            <a href="https://instagram.com/mikrokaos" aria-label="Link to Instagram">
+                <span class="icon is-medium">
+                    <i class="fab fa-instagram fa-2x" aria-hidden="true" title="Link to Instagram"></i>
+                </span>
+            </a>
+
+        </figure>
+
+    </footer>
+
+</body>
+
+</html>

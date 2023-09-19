@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/meny.js"></script>
+    <title>GylnePizza - Meny</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="hero">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <h1 class="logo">
+                        Gylne<br>Pizza
+                    </h1>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" href="index.html">
+                    Hjem
+                </a>
+                <a class="navbar-item active" href="Meny.html">
+                    Meny
+                    <div class="arrow-up"></div>
+                </a>
+                <a class="navbar-item" href="Restauranter.html">
+                    Restauranter
+                </a>
+                <a class="navbar-item" href="Ansatte.html">
+                    Ansatte
+                </a>
+                <a class="navbar-item" href="Salg.html">
+                    Salg
+                </a>
+            </div>
+        </nav>
+    </header> <!--end header-->
+
+    <!--MAT/DRIKKE-->
+
+
+    <section class="columns">
+        <article class="column is-4"></article>
+        <!--tomrom for avstand-->
+        <article class="column is-2">
+            <p onclick="myPizza()" class="button is-ghost pizza">PIZZA</p>
+        </article>
+        <article class="column is-2">
+            <p onclick="myDrikke()" class="button is-ghost pizza">DRIKKE</p>
+        </article>
+        <article class="column is-4">
+            <a href="redigerMeny.html"><button class="button is-ghost"><img src="images/Menu/ButtonRedigere.svg"
+                        alt="Legg til produkt"></button></a>
+        </article>
+        <!--tomrom for avstand og button-->
+    </section>
+    <!--end mat/drikke-->
+
+    <!--PIZZA-->
+
+    <div id="pizza" class="columns">
+        <article class="column is-auto">
+
+        </article>
+        <article class="column is-auto">
+            <img src="images/Menu/Pizza/carne-di-pentito-ny.png" alt="Carne di pentito">
+            <h3 class="meny">CARNE DI PENTITO</h3>
+            <p class="ingredienser"> Pris: 169 kr</p>
+            <p class="ingredienser">Ingredienser:<br>tomatsaus<br>ost<br>bacon<br>skinke </p>
+        </article>
+        <article class="column is-auto">
+            <img src="images/Menu/Pizza/cheese-ny.png" alt="">
+            <h3 class="meny">CHEESE</h3>
+            <p class="ingredienser"> Pris: 169 kr</p>
+            <p class="ingredienser">Ingredienser:<br>tomatsaus<br>ost</p>
+        </article>
+        <article class="column is-auto">
+            <img src="images/Menu/Pizza/christian-spesial-ny.png" alt="">
+            <h3 class="meny">CHRISTIAN SPESIAL</h3>
+            <p class="ingredienser"> Pris: 169 kr</p>
+            <p class="ingredienser">Ingredienser:<br>tomatsaus<br>ost<br>biff<br>skinke </p>
+        </article>
+        <article class="column is-auto">
+            <img src="images/Menu/Pizza/pepperoni-ny.png" alt="">
+            <h3 class="meny">PEPPERONI</h3>
+            <p class="ingredienser"> Pris: 169 kr</p>
+            <p class="ingredienser">Ingredienser:<br>tomatsaus<br>ost<br>pepperioni</p>
+        </article>
+
+        <article class="column is-auto">
+
+        </article>
+    </div>
+    <!--end pizza-->
+
+    <!--DRIKKE-->
+
+    <div id="drikke" style="display:none" class="columns">
+        <div class="column is-auto">
+
+        </div>
+        <div class="column is-auto">
+            <img src="images/Menu/Drikke/coca-cola-ny.png" alt="">
+            <h3 class="meny">Cola Cola</h3>
+            <p class="ingredienser"> Pris: 25,90 kr</p>
+        </div>
+        <div class="column is-auto">
+            <img src="images/Menu/Drikke/imsdal-ny.png" alt="">
+            <h3 class="meny">IMSDAL</h3>
+            <p class="ingredienser"> Pris: 25,90 kr</p>
+        </div>
+        <div class="column is-auto">
+            <img src="images/Menu/Drikke/mango-ny.png" alt="">
+            <h3 class="meny">HANSA MANGO IPA</h3>
+            <p class="ingredienser"> Pris: 25,90 kr</p>
+        </div>
+        <div class="column is-auto">
+            <img src="images/Menu/Drikke/pepsi-ny.png" alt="">
+            <h3 class="meny">PEPSI</h3>
+            <p class="ingredienser"> Pris: 25,90 kr</p>
+        </div>
+        <div class="column is-auto">
+
+        </div>
+    </div>
+    <!--end drikke-->
+
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="content is-pulled-left is-aligned">
+            <p>
+                &copy; 2021 Gylne Pizza. All Rights Reserved
+            </p>
+        </div>
+
+        <figure class="media is-pulled-right is-aligned" aria-label="Link to Twitter">
+            <a href="https://twitter.com/JacobLanche">
+                <span class="icon is-medium">
+                    <i class="fab fa-twitter fa-2x" aria-hidden="true" title="Link to Twitter"></i>
+                </span>
+            </a>
+
+            
+            <a href="https://www.facebook.com/Swedish-Chef-12320736665/" aria-label="Link to Facebook">
+                <span class="icon is-medium">
+                    <i class="fab fa-facebook fa-2x" aria-hidden="true" title="Link to Facebook"></i>
+                </span>
+            </a>
+
+            <a href="https://instagram.com/mikrokaos" aria-label="Link to Instagram">
+                <span class="icon is-medium">
+                    <i class="fab fa-instagram fa-2x" aria-hidden="true" title="Link to Instagram"></i>
+                </span>
+            </a>
+
+        </figure>
+
+    </footer>
+
+</body>
+
+</html>

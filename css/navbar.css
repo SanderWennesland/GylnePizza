@@ -1,0 +1,61 @@
+.hero {
+    background-color: #920008;
+    min-height: 5rem;
+}
+
+
+.logo {
+    font-family: 'DOKYO';
+    font-size: 2rem;
+    color: #FFDF00;
+    align-self: center;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 25% 0% 25% 25%;
+    padding: 0;    
+}
+
+
+.navbar-item {
+    font-family: 'PizzaPressFill';
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #920008;
+   
+}
+.active {
+    background-color: #920008; 
+    color: #FFDF00; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.navbar-end .navbar-link.is-active, 
+.navbar-end .navbar-link:focus, 
+.navbar-end .navbar-link:focus-within,
+.navbar-end .navbar-link:hover, 
+.navbar-end a.navbar-item.is-active, 
+.navbar-end a.navbar-item:focus,
+.navbar-end a.navbar-item:focus-within, 
+.navbar-end a.navbar-item:hover { 
+    background-color: #920008; 
+    color: #FFDF00; 
+    text-decoration: underline;
+}
+
+.navbar-end {
+    padding-right: 5%;
+}
+
+.arrow-up {
+    position: absolute;
+    bottom: 0;
+    left: 35%; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    /*border-bottom: 15px solid #FFDF00; */
+    border-bottom: 15px solid #E5E5E5;
+    background-color: transparent;
+  }

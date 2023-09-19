@@ -1,0 +1,81 @@
+
+.title {
+    font-family: 'Dokyo', sans-serif;
+    color: #FFDF00 !important;
+    line-height: 4.2rem;
+    font-size: 5.5rem !important;
+    padding-bottom: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.hero-body {
+    background-color: #920008;
+}
+
+.column {
+    padding: 0;
+}
+
+form.box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 45px;
+    padding: 2rem;
+}
+
+.label {
+    font-family: Eina01;
+    color: #FFDF00;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: bold;
+    background: none;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0) !important;
+    color: #FFDF00 !important;
+    border: 2px #FFDF00 solid !important;
+    border-radius: 33px !important;
+    width: 100% !important;
+    font-family: Eina01, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+::placeholder, ::selection {
+    color: #FFDF00;
+    font-family: Eina01;
+}
+
+.button {
+    font-family: PizzaPressFill;
+    text-transform: uppercase;
+    color: #FFDF00 !important;
+    width: 250px;
+    border: none;
+    border: 3px #FFDF00 solid !important;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #920008 !important;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #460004 !important;  
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #FFDF00;
+}
